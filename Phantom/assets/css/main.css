@@ -3171,6 +3171,7 @@ input, select, textarea {
 
 	.tag {
 		border: solid 1px;
+		border-radius: 2px;
 		margin: 0px 5px 0px 5px;
 		padding: 2px;
 		display: inline;
