@@ -166,6 +166,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.disclaimer {
+		color: #585858;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: 200;
+		line-height:1.5;
+	}
+
 	h1 {
 		font-size: 2.75em;
 		font-weight: 700;
@@ -208,7 +216,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h3 {
