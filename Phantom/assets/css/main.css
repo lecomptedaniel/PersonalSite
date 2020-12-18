@@ -7,6 +7,213 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/******************************* WHOLE BUNCHA STUFF FOR KST AFFINITY -- MOVE TO NEW SHEET SOON 
+
+
+@font-face {
+    font-family: 'sansationbold';
+    src: url('sansation_bold-webfont.woff2') format('woff2'),
+         url('sansation_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationbold_italic';
+    src: url('sansation_bold_italic-webfont.woff2') format('woff2'),
+         url('sansation_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationitalic';
+    src: url('sansation_italic-webfont.woff2') format('woff2'),
+         url('sansation_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansation_lightregular';
+    src: url('sansation_light-webfont.woff2') format('woff2'),
+         url('sansation_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansation_lightitalic';
+    src: url('sansation_light_italic-webfont.woff2') format('woff2'),
+         url('sansation_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sansationregular';
+    src: url('sansation_regular-webfont.woff2') format('woff2'),
+         url('sansation_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+REMOVE AFTER MOVING TO NEW -- END OF SECTION ******************************/
+
+
+.text-center {
+	text-align: center;
+}
+.cf {
+	*zoom: 1;
+}
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+body {
+	background-color: #161719;
+	font-family: 'Roboto', sans-serif;
+	color: #9fa2a7;
+}
+body .wrapper {
+	max-width: 450px;
+	margin: 0 auto;
+}
+body .wrapper h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+body .wrapper .speechbubble {
+	background-color: #26272b;
+	color: #9fa2a7;
+	font-size: 0.8em;
+	line-height: 1.75;
+	padding: 15px 25px;
+	margin-bottom: 75px;
+	cursor: default;
+}
+body .wrapper .speechbubble:nth-child(2n) {
+	border-left: 5px solid;
+}
+body .wrapper .speechbubble:nth-child(2n):after {
+	content: '';
+	margin-top: -30px;
+	padding-top: 0px;
+	position: relative;
+	bottom: -45px;
+	left: 20px;
+	border-width: 30px 0 0 30px;
+	border-style: solid;
+	border-color: #26272b transparent;
+	display: block;
+	width: 0;
+}
+body .wrapper .speechbubble:nth-child(2n+1) {
+	border-right: 5px solid;
+}
+body .wrapper .speechbubble:nth-child(2n+1):after {
+	content: '';
+	margin-top: -30px;
+	padding-top: 0px;
+	position: relative;
+	bottom: -45px;
+	left: 350px;
+	border-width: 30px 30px 0 0;
+	border-style: solid;
+	border-color: #26272b transparent;
+	display: block;
+	width: 0;
+}
+body .wrapper .speechbubble:nth-child(4n+1) {
+	border-color: #56b273;
+}
+body .wrapper .speechbubble:nth-child(4n+2) {
+	border-color: #01ad9b;
+}
+body .wrapper .speechbubble:nth-child(4n+3) {
+	border-color: #b388dd;
+}
+body .wrapper .speechbubble:nth-child(4n+4) {
+	border-color: #ff8750;
+}
+body .wrapper .speechbubble p:before {
+	content: "“";
+	font-family: Georgia;
+	font-size: 40px;
+	line-height: 0;
+	display: inline-block;
+	display: -webkit-inline-box;
+}
+body .wrapper .speechbubble .username {
+	display: inline;
+	font-style: italic;
+	float: right;
+}
+body .wrapper .speechbubble .username:before {
+	content: '- ';
+}
+
+
+.insight {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 148.19%;
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}
+
+
+.solutioncards {
+	background: #363859;
+	border-radius: 10px;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.cardlargefont {
+	font-family: Sansation;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0;
+}
+
+
+
+
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
