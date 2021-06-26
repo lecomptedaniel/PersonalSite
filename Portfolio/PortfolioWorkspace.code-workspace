@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\DecisiveAction-main"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\School\\Capstone\\Code\\playbookchat"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PersonalSite",
+		"git.ignoreLimitWarning": true
+	}
+}
